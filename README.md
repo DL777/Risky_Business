@@ -13,8 +13,32 @@ In this assignment you will build and evaluate several machine learning models t
 
 
 ## Files
-Resampling Starter Notebook
+1. Resampling Starter Notebook
 
-Ensemble Starter Notebook
+2. Ensemble Starter Notebook
 
-Lending Club Loans Data
+3. Lending Club Loans Data
+
+## Resampling
+
+In the first part of the project, the following resampling techniques were used: 
+
+1. Oversampling the data using the Naive Random Oversampler and SMOTE algorithms.
+
+
+2. Undersampling the data using the Cluster Centroids algorithm.
+
+
+3. Over- and undersample using a combination SMOTEENN algorithm.
+
+For each method used, the following scores were calculated:
+
+1. Balanced accuracy score
+
+2. Confusion matrix
+
+3. Imbalanced classification report.
+
+## Ensemble Learning
+
+In the second part of the project, I trained and compared two different ensemble classifiers to predict loan risk, **Balanced Random Forest Classifier** and the **Easy Ensemble Classifier**.
